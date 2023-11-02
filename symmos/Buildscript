@@ -1,0 +1,15 @@
+name="symmos"
+version="1.0.0"
+arch=("x86_64")
+depends=()
+conflicts=()
+replaces=()
+provides=()
+
+prepare() {}
+
+build() {}
+
+package() {
+    cp os-release "$pkgdir/etc/os-release"
+}
